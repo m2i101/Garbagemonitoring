@@ -1,2 +1,4 @@
-# Garbagemonitoring
-Garbage Monitoring and collection assistance project
+# Garbage Monitoring and Collection Assistance Project
+An Ultrasonic Sensor is used for detecting whether the trash can is filled with garbage or not. The Ultrasonic Sensor is installed at the top of Trash Can and will measure the distance of garbage from the top of Trash can and we  set a threshold value according to the size of trash can. If the distance is more than this threshold value, means that the Trash can is full of garbage and we will be notified accordingly through an SMS or VoIP call.
+The GPS coordinates of the trash can is displayed in Blynk app. The data collected from the sensor is transferred to our Server,in our case it is Thingspeak. I've used this server because it is open source and user-friendly.But it has the limitation that the data can be sent to the server with a minimum time delay of 15 seconds.The location of the bin is displayed in the Blynk app.  
+
